@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "imcmaster",
+    "name": "IMC Master",
     "slug": "imcmaster",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,16 +10,22 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "imcmaster.cajuinacode.com.br",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "monochromeImage": "./assets/icon.png"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "67ee08f2-40de-4b84-b10f-a913ff558595"
+      }
     }
   }
 }
